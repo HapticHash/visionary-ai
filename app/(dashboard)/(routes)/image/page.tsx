@@ -10,13 +10,10 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Empty } from "@/components/Empty";
-import { BotAvatar } from "@/components/Bot-Avatar";
 import { Heading } from "@/components/Heading";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
-import { cn } from "@/lib/utils";
 import { Loader } from "@/components/Loader";
-import { UserAvatar } from "@/components/User-Avatar";
 
 import { amountOptions, formSchema, resolutionOptions } from "./constants";
 import {
